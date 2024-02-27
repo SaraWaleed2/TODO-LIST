@@ -13,7 +13,7 @@ function App() {
       setTask([...task, newData]);
       inputRef.current.value = '';
     } else {
-      alert("Task Feild is Empty , Enter Task")
+      alert("Task Field is Empty , Enter Task")
     }
   }
 
